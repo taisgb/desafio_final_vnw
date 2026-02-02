@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from '../../pages/Home/Home'
 import Acoes from '../../pages/Acoes/Acoes'
 import Quem from '../../pages/Quem/Quem'
-import Perfil from '../Perfil/Perfil'
+import Perfil from '../../pages/Perfil/Perfil'
 import styles from'./NavBar.module.scss'
 
 import logo from '../../assets/img/logo/logo.png'
@@ -17,8 +17,8 @@ export default function NavBar() {
         <Link to='/'>
           <img className={styles.logo} src={logo} alt="Logo do projeto Connect" />
         </Link>        
-        <ul>
-          <li><Link to='/'>Home</Link></li>
+        <ul className={styles.links}>
+          <li className={styles.link}><Link to='/'>Home</Link></li>
           <li><Link to='/acoes'>Ações da Connect</Link></li>
           <li><Link to='/quem'>Quem Somos</Link></li>
         </ul>
@@ -34,8 +34,7 @@ export default function NavBar() {
         <Route path='/quem' element={<Quem />}/>
         <Route path='/perfil' element={<Perfil />}/>
       </Routes> 
-     
-
+    
     </BrowserRouter>
 
   )
