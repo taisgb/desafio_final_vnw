@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #14a8d4cc;  
+
+    .perfil {
+        border-radius: 100%;
+        border: 2px solid #ffff;
+        width: 50px;
+        height: 50px;
+    }
+
+    
+}
