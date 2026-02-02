@@ -3,12 +3,49 @@
     justify-content: space-between;
     flex-direction: row;  
     height: 100%; 
+    align-items: center
     
+}
+
+.imgContainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    img {
+        width: 79%;
+    }
 }
 
 .textContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    justify-content: center;
+    width: 60%;   
+
+    h1 {
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 4rem;
+        color: #205691;
+        font-weight: bold;
+        
+    }
+
+    h2 {
+       font-family: "Source Sans 3", sans-serif;
+       font-size: 3.5rem;
+       color: #205691;
+       font-weight: bold;
+    
+    }
+
+    p {
+        font-family: "Alatsi", sans-serif;
+        font-size: 1.1rem;
+        color: #205691;
+        width: 90%;
+        
+    }
 }
