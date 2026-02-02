@@ -1,0 +1,57 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #205691 ;
+    color: #ffff;
+    font-family: 'Inter', sans-serif ;
+    padding: 1rem;
+    
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    img {
+        width: 70px;
+        height: 50px;
+    }
+
+    p {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+   
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    
+    p {
+        font-size: 0.7rem;
+    }   
+}
+
+.socialContainer {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+
+

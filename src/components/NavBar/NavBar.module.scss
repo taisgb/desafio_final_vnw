@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: row;
     background-color: #205791;
-    padding: 0.5rem;  
+    padding: 1rem;  
     font-family: 'Inter', sans-serif;
     
 
@@ -16,6 +16,10 @@
     }   
 }
 
+.logo {
+    width: 60px;
+    height: 50px;
+}
 .links {
     display: flex;
     align-items: center;
@@ -24,8 +28,18 @@
     gap: 2rem;
     list-style: none;
 
-    .link {
+
+
+    a {
         text-decoration: none;
         color: #ffff;
+    }
+    
+    a:hover{
+        text-decoration: underline;
+        color: #00AAFF;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.5s;
     }
 }
