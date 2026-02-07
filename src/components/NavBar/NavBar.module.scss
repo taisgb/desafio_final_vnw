@@ -46,7 +46,9 @@
 }
 
 @media (min-width: 201px) and (max-width: 500px) {
-    .navbar {      
+    .navbar {     
+        width: 100vw; 
+        padding: 0.5rem;
 
         a {
             font-size: 0.7rem;
@@ -57,8 +59,7 @@
         }
 
         .logo {
-            width: 9vw;;
-        }
+            width: 9vw;        }
         
     }
 
