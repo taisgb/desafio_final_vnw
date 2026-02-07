@@ -26,8 +26,7 @@
 }
 
 .photo {
-    width:  200px;
-    height: 200px;
+    height: 30vh;
     border-radius: 100%;
     border: 5px solid #00AAFF;
     object-fit: cover;
@@ -37,7 +36,7 @@
 .infosPerfil {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -105,3 +104,46 @@
 }
 
 
+@media (min-width: 201px) and (max-width: 500px) {
+    .mainContainer {
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;        
+        justify-content: center;
+        align-items: center;
+    }
+    .perfil{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: none;
+        height: 60vh;
+        margin: 0.5rem auto;        
+    }
+
+    .photoContainer {
+        width: 100vw;
+        
+    }
+
+    .infosPerfil {
+        .infos {
+            flex-direction: column;
+            width: 100%;
+            font-size: 0.8rem;
+            line-height: 1.6rem;
+            font-weight: 600;
+            color: #278733;
+            align-items: center;
+            text-decoration: underline;
+            margin-bottom: 2rem;
+        }
+
+        .tags {
+            width: 100%;
+            align-items: center;
+            
+        }
+    }
+}

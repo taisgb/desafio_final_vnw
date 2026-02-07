@@ -14,11 +14,11 @@ export default function Perfil() {
           <h2>Taís Guimarães</h2>
           <p className={styles.status}>Voluntário Ativo</p>
           <p className={styles.sobre}>Apaixonado por fazer a diferença na comunidade. Acredito que pequenas ações podem transformar vidas e estou sempre em busca de novas oportunidades para ajudar.</p>
-          <div className={styles.infos}>
+          <address className={styles.infos}>
             <p>Salvador/BA</p>
             <p>taisgb@gmail.com</p>
             <p>Membro desde Fevereiro 2026</p>
-          </div>
+          </address>
           <div className={styles.tags}>
             <p>Educação</p>
             <p>Meio ambiente</p>

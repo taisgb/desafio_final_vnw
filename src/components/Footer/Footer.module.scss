@@ -53,5 +53,21 @@
     margin-right: 0.5rem;
 }
 
+@media (min-width: 201px) and (max-width: 500px) {
+   .footer {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+   } 
 
+   .textContainer {
+    width: 100%;
+    text-align: center;
+   }
+   .socialContainer {
+    width: 80%;
+    justify-content: space-evenly;
+   }
 
+}

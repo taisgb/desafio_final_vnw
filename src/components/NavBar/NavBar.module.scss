@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     background-color: #205791;
@@ -10,21 +10,20 @@
 
     .perfil {
         border-radius: 100%;
-        border: 3px solid #00AAFF;
-        width: 50px;
-        height: 50px;
+        border: 5px solid #00AAFF;
+        width: 5vw;
+       
     }   
 }
 
 .logo {
-    width: 60px;
-    height: 50px;
+    width: 5vw;
 }
 .links {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 2rem;
     list-style: none;
 
@@ -33,6 +32,8 @@
     a {
         text-decoration: none;
         color: #ffff;
+        font-size: 1.5rem;
+
     }
     
     a:hover{
@@ -42,4 +43,23 @@
         font-weight: bold;
         transition: 0.5s;
     }
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+    .navbar {      
+
+        a {
+            font-size: 0.7rem;
+        }
+
+        .perfil {
+            width: 9vw;
+        }
+
+        .logo {
+            width: 9vw;;
+        }
+        
+    }
+
 }
